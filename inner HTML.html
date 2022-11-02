@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>inner html</title>
+	<style type="text/css">
+		body
+	{background: #ee9ca7;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #ffdde1, #ee9ca7);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #ffdde1, #ee9ca7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */}
+
+	</style>
+</head>
+<body>
+<div id="sbjain">hello</div>
+<button onclick="xyz()" id="btn">click here</button>
+<script type="text/javascript">
+	function xyz(){
+		document.getElementById('sbjain').innerHTML = "hi how are you?";
+		//window.print()
+	}
+</script>
+</body>
+</html>
